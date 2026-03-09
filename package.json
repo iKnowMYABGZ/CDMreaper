@@ -1,0 +1,19 @@
+{
+  "name": "dmca-evidence-tool",
+  "version": "1.0.0",
+  "description": "CLI tool for capturing DMCA evidence: screenshots, thumbnails, metadata, and media files",
+  "main": "index.js",
+  "bin": {
+    "dmca": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "install-browser": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.42.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
